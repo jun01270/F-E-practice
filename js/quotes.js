@@ -38,12 +38,15 @@ const quotes = [
     author: "–로버트 엘리엇",
   },
 ];
-
+const quoteCount = quotes.length;
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
+const todaysQuote = quotes[Math.floor(Math.random() * quoteCount)];
 
-setInterval(showquote, 1000);
-
-function showquote() {
-  console.log(quotes[Math.floor(Math.random() * 10)]);
+function showQuote() {
+  console.log(quotes[Math.floor(Math.random() * quoteCount)]);
+  quote.innerText = todaysQuote.quote;
+  author.innerText = todaysQuote.author;
 }
+
+setInterval(showQuote, 1000);
