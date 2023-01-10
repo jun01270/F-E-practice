@@ -38,7 +38,7 @@ body {
 
 #quote {
   position: absolute;
-  top: -200px;
+  top: 200px;
   color: rebeccapurple;
   font-size: xx-large;
   font-weight: bold;

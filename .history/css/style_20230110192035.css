@@ -17,7 +17,6 @@ body {
   top: 20%;
   left: 45%;
   text-align: center;
-  height: 80%;
 }
 
 #clock {
@@ -38,7 +37,7 @@ body {
 
 #quote {
   position: absolute;
-  top: -200px;
+  bottom: 380px;
   color: rebeccapurple;
   font-size: xx-large;
   font-weight: bold;
@@ -51,4 +50,10 @@ body {
 
 #todo-list {
   list-style: none;
+}
+
+#result{
+  position: absolute;
+  left: 500px;
+  top; 200px;
 }

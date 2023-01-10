@@ -17,7 +17,6 @@ body {
   top: 20%;
   left: 45%;
   text-align: center;
-  height: 80%;
 }
 
 #clock {
@@ -38,15 +37,14 @@ body {
 
 #quote {
   position: absolute;
-  top: -200px;
+  bottom: 380px;
   color: rebeccapurple;
   font-size: xx-large;
   font-weight: bold;
 }
 
 #input-blank {
-  background: linear-gradient(to top, yellow, lightGreen);
-  font-size: xx-large;
+  background-color: linear-gradient(to top, yellow, lightGreen);
 }
 
 #todo-list {
