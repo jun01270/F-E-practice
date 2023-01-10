@@ -1,0 +1,32 @@
+.hidden {
+  display: none;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+#all {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  text-align: center;
+}
+
+#clock {
+  font-size: 600%;
+}
+
+#todo-form {
+  size: 500%;
+}
+
+#todo-list {
+  color: yellow;
+}
