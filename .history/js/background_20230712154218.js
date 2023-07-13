@@ -1,4 +1,4 @@
-const images = ["nature.jpg", "orora.jpg"];
+const images = ["nature.jpg", "river.jpg", "orora.jpg"];
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 const bgImage = document.createElement("img");
 const content = document.getElementById("wrapper");
@@ -9,4 +9,4 @@ bgImage.src = `img/${chosenImage}`;
 document.body.appendChild(bgImage);
 // bgImage.appendChild(content);
 
-// console.log(content);
+console.log(content);

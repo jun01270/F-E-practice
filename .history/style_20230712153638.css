@@ -24,7 +24,7 @@ body {
 }
 
 #clock {
-  font-size: 400%;
+  font-size: 600%;
 }
 
 #input-blank {
@@ -69,8 +69,7 @@ body {
 
   #clock {
     font-size: 200%;
-    margin-top: -10px;
-    margin-bottom: 1px;
+    margin-top: -50px;
   }
 
   #result {
@@ -88,6 +87,6 @@ body {
 
   #input-blank {
     background: linear-gradient(45deg, Violet, Orange);
-    font-size: medium;
+    font-size: large;
   }
 }

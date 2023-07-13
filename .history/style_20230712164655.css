@@ -3,7 +3,7 @@
 }
 
 #result {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 #background {
@@ -24,7 +24,7 @@ body {
 }
 
 #clock {
-  font-size: 400%;
+  font-size: 600%;
 }
 
 #input-blank {

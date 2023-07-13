@@ -24,7 +24,7 @@ body {
 }
 
 #clock {
-  font-size: 400%;
+  font-size: 600%;
 }
 
 #input-blank {
@@ -67,27 +67,15 @@ body {
     font-weight: bold;
   }
 
-  #clock {
-    font-size: 200%;
-    margin-top: -10px;
-    margin-bottom: 1px;
-  }
-
   #result {
-    margin-top: 0px;
-    font-size: large;
+    margin-top: 50px;
   }
 
   #wrapper {
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 20%;
+    left: 20%;
     text-align: center;
     height: 80%;
-  }
-
-  #input-blank {
-    background: linear-gradient(45deg, Violet, Orange);
-    font-size: medium;
   }
 }
